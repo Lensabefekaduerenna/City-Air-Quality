@@ -1,4 +1,6 @@
-<h2>Air Quality: Design and Implement final Product</h2>
+<h1>Air Quality in the city of Bogota</h1>
+<b>In this project I will show the design and implimantation process of air quality analysis for city of Bogota. Before this step I have completed the explore phase which includes the problem we are trying to solve, the engagment of stakeholders, and if AI adds value in solving this problem.</b>
+  <h2>Design and Implementation process</h2>
   
 - <b>Import Python packages</b>
 - <b>Load the dataset with missing values filled in (output from the last lab)</b>
