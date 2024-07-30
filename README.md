@@ -46,5 +46,5 @@
 - <b>Display your map animation# City-Air-Quality</b>
 <img width="697" alt="image" src="https://github.com/user-attachments/assets/67cd3503-696a-4bdc-bdea-291629b6c485">
 
-<b>The final phase is evaluation, where I 
+<b>The final phase is evaluation phase, where after our system is deployed, it's time to evaluate the impact, communicate our findings, and then decide what to do next. At this point, a number of things might have happened. Most commonly, perhaps we have discovered through deploying our system that there's something we would like to tweak about the implementation or even go back to design phase and modify it.</b>
 
