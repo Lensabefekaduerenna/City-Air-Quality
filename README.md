@@ -17,6 +17,31 @@
  <img width="683" alt="image" src="https://github.com/user-attachments/assets/ea174ce4-cb7e-46a3-acde-1dd3a4763417">
 
 - <b>Test different values of k for the nearest neighbor method</b>
+
+ <b> I calculated the MAE for using nearby sensor station measurements to estimate the value of 
+ PM2.5 at any given sensor station location. Here I'll evaluate the method shown in the map above at each sensor station location as if that station's measurement was replaced with a value from the nearest neighbor station, and then a weighted average of k nearest neighbor stations.</b>
+
+<b>The calculation for mean absolute error that's being performed by the code before is the following:</b>
+
+<img width="247" alt="image" src="https://github.com/user-attachments/assets/ef2c9c6e-246e-43af-8358-6d3b1059449d">
+
+<b>Where "n" is the number of samples in the test dataset</b>
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/e7e4c4c2-4b81-4d12-8821-94584dbd75a0">
+
+<b>After testing k=1, run the following cell to test a range of values for k.</b>
+
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/fbb4a5e6-e828-4c90-9144-c3aad8ac5340">
+
 - <b>Use the best value of k to make a map of PM2.5 in Bogotá</b>
+
+<b>when we Run the cell below to generate a map of PM2.5 values. The map will show the concentration of the chosen pollutant over the city on the selected end_date. By clicking on the circles on the map (stations), pop-up plots appear, showing the concentration of the pollutant over the selected time range (from start_date to end_date) we can change the values of dates and times or k to see how the data differs at various times and how the result changes depending on k.</b>
+
+<img width="716" alt="image" src="https://github.com/user-attachments/assets/baa463f6-b16a-4fda-9182-57408a128031">
+
+<img width="686" alt="image" src="https://github.com/user-attachments/assets/0c4fe947-889d-435b-b707-69be068f414c">
+
 - <b>Construct a map animation of PM2.5 in Bogotá</b>
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/b1ad4dd1-e342-4f2b-b43e-ad5361232879">
+
 - <b>Display your map animation# City-Air-Quality</b>
+
